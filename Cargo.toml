@@ -16,10 +16,10 @@ keywords = ["array", "multidimensional", "statistics", "matrix", "ndarray"]
 categories = ["data-structures", "science"]
 
 [dependencies]
-ndarray = "0.15.0"
+ndarray = {version="0.15.0", default-features = false}
 noisy_float = "0.2.0"
-num-integer = "0.1"
-num-traits = "0.2"
+num-integer = {version="0.1", default-features = false }
+num-traits = {version="0.2", default-features = false }
 rand = "0.8.3"
 itertools = { version = "0.10.0", default-features = false }
 indexmap = "1.6.2"
